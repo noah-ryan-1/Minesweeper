@@ -15,10 +15,12 @@ def main():
     # Creation of the board in system:
     hidden_board = create_mine_board(SIZE)
 
+    # Process the players input 
     def player_input(board, current_pos):
         return process_input(board, current_pos, 
                       input('Move (up to 2 WASD steps, optionally ending in 'F' to flag): '))
     
+    # Print the board pertaining to the move 
     def printing(game_board):
         print('\n')
         for row in game_board:
@@ -42,7 +44,7 @@ def main():
             return
             
         
-        elif board[current_pos[0]][current_pos[1]] == 'E':
+        elif tuple((current_pos[0], current_pos[1])) == tuple((SIZE - 1, SIZE - 1)):
             print("Congratulations! YOU WIN! You made it through the minefield!")
             game_over = True
             return

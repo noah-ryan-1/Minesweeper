@@ -49,7 +49,7 @@ def process_input(mine_board, current_pos, move_str):
                 flag = not flag 
         
         # Invalidate flag move if top left or bottom right square
-        elif flag and pos == [0, 0] or pos == [len(mine_board) - 1, 
+        elif flag and pos == [0, 0] or flag and pos == [len(mine_board) - 1, 
             len(mine_board) - 1]:
             pos = current_pos
 
