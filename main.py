@@ -9,7 +9,6 @@ def main():
     current_pos = (0,0)
     visited = {current_pos}
     flagged = set()
-    show_all = False
     current_pos = (0,0)
     
     # Creation of the board in system:
@@ -62,4 +61,5 @@ def main():
 
         # Check win condition 
         pass
-main()
+if __name__ == '__main__':
+    main()
