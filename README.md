@@ -16,7 +16,8 @@ Game:
 
 Game Over:
 
-<img width="374" height="181" alt="Screenshot 2025-07-15 at 15 31 15" src="https://github.com/user-attachments/assets/a7ba937a-0c3b-4e4e-9f6c-206b5fd02c32" />
+<img width="362" height="168" alt="Screenshot 2025-07-15 at 15 51 04" src="https://github.com/user-attachments/assets/efbe3f6c-cf70-4f6d-a51e-be829b9a1874" />
+
 
 ## 🎯 Purpose: 
 This project was carried out to:
