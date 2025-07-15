@@ -11,6 +11,7 @@ A python based minesweeper game where the player must navigate through a minefie
 
 ## 📸 Screenshots:
 Game:
+
 <img width="444" height="167" alt="Screenshot 2025-07-15 at 15 32 02" src="https://github.com/user-attachments/assets/ab13e73e-c05f-4993-b125-f8747ade84ee" />
 
 Game Over:
@@ -25,4 +26,8 @@ This project was carried out to:
 4. Serve as a foundational project to further be built upon later with improvements
 
 ## 🚀 How to Run: 
- 
+Open Terminal or equivalent and type the following in order:
+1. git clone https://github.com/noah-ryan-1/minesweeper.git
+2. cd minesweeper
+3. cd 'Minesweeper Game'
+4. python3 main.py 
